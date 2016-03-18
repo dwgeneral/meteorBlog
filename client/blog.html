@@ -1,0 +1,18 @@
+<template name="blog">
+  <div id='blog'>
+    <button onclick="Router.go('/')" class='btn btn-default btn-sm'>Back</button>
+    {{>Template.dynamic template=getTemplateName}}
+  </div>
+</template>
+
+<template name="blogHome">
+  <h1> Guoweidong's Corner </h1>
+  <div id='navbar'>
+    <a href="http://meteorhacks.com/building-static-websites-with-meteor.html">This blog is created with Meteor. Learn how I built this!</a>
+  </div>
+  <div id='blogHome'>
+    {{#each posts}}
+      <div><a href='/blog/{{template}}'>{{title}}</a></div>
+    {{/each}}
+  </div>
+</template>

@@ -1,0 +1,32 @@
+body, div, a, li, ul {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.2px;
+  color: #555;
+}
+
+body {
+  margin: 30px 30px;
+}
+
+h1 {
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+#navbar {
+  margin-bottom: 30px;
+}
+
+#navbar a {
+  color: rgb(255, 58, 58);
+}
+
+h2, h3, h4 {
+  font-weight: 600;
+}
+
+#blogHome a {
+  font-size: 22px;
+}
